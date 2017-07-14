@@ -28,8 +28,12 @@ header {
 .logo {
   display: flex;
   flex-grow: 1;
+}
+
+header img {
   padding-left: 10px;
   height: 50px;
+  max-width: 240px;
 }
 
 header a {
@@ -45,6 +49,15 @@ header nav {
 .content {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* to avoid mess on a larger screen, correct me if I'm wrong here ->*/
+  min-width: 1000px;
 }
 
 /* MISSION */
@@ -65,26 +78,34 @@ header nav {
   background-color: black;
 }
 
-/*Tea of the Month
+/*Tea of the Month*/
 
 .featured {
+  margin-top: 40px;
   display: flex;
   width: 1000px;
 }
 
+.featured h2 {
+  margin-bottom: 0;
+}
+
 .teas {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.tea {
-  height: 200px;
-  width: 300px;
+.tea h4 {
+  margin-top: 10px;
 }
 
 .tea img {
-  margin-bottom: 10px;
+  height: 200px;
+  width: 300px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 /*Locations
