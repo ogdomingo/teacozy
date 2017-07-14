@@ -12,6 +12,11 @@ html {
   text-align: center;
 }
 
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
 /*Header*/
 
 header {
@@ -60,6 +65,7 @@ header nav {
   min-width: 1000px;
 }
 
+
 /* MISSION */
 
 .mission {
@@ -81,9 +87,9 @@ header nav {
 /*Tea of the Month*/
 
 .featured {
-  margin-top: 40px;
   display: flex;
   width: 1000px;
+  margin-top: 60px;
 }
 
 .featured h2 {
@@ -108,26 +114,38 @@ header nav {
   padding-left: 15px;
 }
 
-/*Locations
+/*Locations*/
 
 .locations {
-  display: flex;
-  justify-content: space-around;;
-  align-items: center;
   height: 500px;
-  background-image: url("../images/locations-background.png");
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  margin-top: 40px;
 }
 
+.locations h2 {
+  padding: 10px;
+}
+
+.location-items {
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  flex-direction: row;
+}
 
 .location {
   width: 300px;
   opacity: 1;
-  padding: 15px 20px;
+  margin: 5px 20px;
+  padding: 10px;
+  background-color: black;
 }
 
-/*Footer
+/*Footer*/
 footer {
   width: 100%;
+  margin-top: 0;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -136,7 +154,10 @@ footer {
   height: 200px
 }
 
+.contact h5 {
+  margin: 20px;
+}
+
 #copyright {
   text-align: left;
 }
-*/
