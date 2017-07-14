@@ -1,3 +1,8 @@
+body {
+  margin-top: 0;
+  margin-left: 0;
+}
+
 html {
   font-family: Helvetica;
   font-size: 22px;
@@ -13,12 +18,14 @@ header {
   display: flex;
   align-items: center;
   position: fixed;
+  z-index: 5;
   height: 69px;
   border-bottom: 1px solid white;
   width: 100%;
 }
 
-#logo {
+.logo {
+  display: flex;
   flex-grow: 1;
   padding-left: 10px;
   height: 50px;
@@ -27,21 +34,27 @@ header {
 header a {
   color: white;
   text-decoration: underline;
+  padding-right: 20px;
 }
 
-/*MISSION*/
+header nav {
+  margin-right: 30px;
+}
+
+/* MISSION
 
 .mission {
   background-image: url("../resources/images/img-mission-backround.png");
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 1200px;
   height: 700px;
   margin-bottom: 20px;
 }
 
-/*Tea of the Month*/
+/*Tea of the Month
 
 .featured {
   display: flex;
@@ -63,7 +76,7 @@ header a {
   margin-bottom: 10px;
 }
 
-/*Locations*/
+/*Locations
 
 .locations {
   display: flex;
@@ -80,7 +93,7 @@ header a {
   padding: 15px 20px;
 }
 
-/*Footer*/
+/*Footer
 footer {
   width: 100%;
   margin-left: 20px;
@@ -94,3 +107,4 @@ footer {
 #copyright {
   text-align: left;
 }
+*/
