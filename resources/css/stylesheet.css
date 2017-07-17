@@ -44,11 +44,12 @@ header img {
 header a {
   color: white;
   text-decoration: underline;
-  padding-right: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 header nav {
-  margin-right: 30px;
+  margin-right: 10px;
 }
 
 .content {
@@ -114,17 +115,17 @@ header nav {
   padding-left: 15px;
 }
 
+.tea {
+  margin-top: 20px;
+}
+
 /*Locations*/
 
 .locations {
   height: 500px;
   width: 1200px;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-image: url("../images/img-locations-background.jpg");
   margin-top: 40px;
-}
-
-.locations h2 {
-  padding: 10px;
 }
 
 .location-items {
@@ -138,8 +139,13 @@ header nav {
   width: 300px;
   opacity: 1;
   margin: 5px 20px;
-  padding: 10px;
+  padding-top: 14px;
+  padding-bottom: 4px;
   background-color: black;
+}
+
+.location p {
+  padding: 10px 10px;
 }
 
 /*Footer*/
